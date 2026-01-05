@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil SMA Negeri 1 Jakarta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            color: #004b8e; /* Warna biru untuk semua teks */
+        }
+        .navbar-brand img { 
+            height: 50px; 
+            margin-right: 10px;
+        }
+        section { 
+            padding: 60px 0; 
+            background-color: white; /* Semua section memiliki background putih */
+        }
+        footer { 
+            background-color: #004b8e; 
+            padding: 20px; 
+            text-align: center; 
+            color: white; 
+        }
+        .gambar-sekolah {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            border: 3px solid #004b8e;
+        }
+        .struktur-img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border: 2px solid #004b8e;
+            border-radius: 8px;
+        }
+        .prestasi-img {
+            max-width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border: 3px solid #004b8e;
+        }
+        .fasilitas-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 2px solid #e0e0e0;
+        }
+        .galeri-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            transition: transform 0.3s;
+            border: 2px solid #e0e0e0;
+        }
+        .galeri-img:hover {
+            transform: scale(1.05);
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #003366; /* Biru lebih gelap untuk heading */
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            color: #004b8e !important;
+            font-weight: 500;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #00274d !important;
+        }
+        .lead {
+            color: #0066cc;
+            font-weight: 600;
+        }
+        .bg-light-custom {
+            background-color: #f8f9fa !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <!-- Logo SMAN 1 Jakarta -->
+                <img src="Logo SMAN 1 Jakarta" alt="Logo SMAN 1 Jakarta" class="fixed-image" 
+                     onerror="this.onerror=null; this.src='https://via.placeholder.com/50x50/004b8e/ffffff?text=SMAN1'">
+                SMA Negeri 1 Jakarta
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#struktur">Struktur Organisasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#program">Program Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fasilitas">Fasilitas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prestasi">Prestasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#berita">Berita</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#guru">Data Guru</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#siswa">Data Siswa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ppdb">PPDB</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Halaman Beranda -->
+    <section id="home" class="text-center">
+        <div class="container">
+            <h1 class="mt-5">SMA Negeri 1 Jakarta</h1>
+            <p class="lead">"Mendidik Generasi Unggul untuk Indonesia Maju"</p>
+
+            <!-- Gambar Gerbang Sekolah -->
+            <img src="gambar gerbang sekolah" alt="Gerbang SMA Negeri 1 Jakarta" class="gambar-sekolah"
+                 onerror="this.onerror=null; this.src='https://via.placeholder.com/800x400/004b8e/ffffff?text=Gerbang+SMA+Negeri+1+Jakarta'">
+
+            <h2 class="mt-5">Sambutan Kepala Sekolah</h2>
+            
+            <!-- Gambar Kepala Sekolah (placeholder) -->
+            <div style="width: 200px; height: 200px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 4px solid #004b8e;">
+                <img src="gambar kepala sekolah" 
+                     alt="Kepala Sekolah" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+
+            <p class="mt-4">Selamat datang di website resmi SMA Negeri 1 Jakarta. Kami berkomitmen untuk memberikan pendidikan berkualitas bagi siswa-siswi kami. - <strong>Dr. Budi Santoso, M.Pd.</strong></p>
+        </div>
+    </section>
+
+    <!-- Profil Sekolah -->
+    <section id="profil">
+        <div class="container">
+            <h2>Profil Sekolah</h2>
+            <p><strong>Sejarah singkat:</strong> Didirikan pada tahun 1950, SMA Negeri 1 Jakarta telah menjadi pionir pendidikan di ibu kota.</p>
+            <p><strong>Visi:</strong> Menjadi sekolah unggulan nasional yang menghasilkan lulusan berkarakter, kompetitif, dan berwawasan global.</p>
+            <p><strong>Misi:</strong> Memberikan pendidikan holistik, mengembangkan karakter, dan inovasi pembelajaran.</p>
+            <p><strong>Tujuan:</strong> Mencetak lulusan kompetitif di era digital dan siap menghadapi tantangan masa depan.</p>
+            <p><strong>Identitas:</strong> NPSN 12345678, Akreditasi A, Status Negeri.</p>
+        </div>
+    </section>
+
+    <!-- Struktur Organisasi -->
+    <section id="struktur" class="bg-light-custom">
+        <div class="container">
+            <h2>Struktur Organisasi</h2>
+            <ul>
+                <li><strong>Kepala Sekolah:</strong> Dr. Budi Santoso, M.Pd.</li>
+                <li><strong>Wakil Kepala Sekolah:</strong> Ibu Siti Aminah, S.Pd.</li>
+                <li><strong>Guru dan Staf:</strong> 50 orang guru, 20 staf administrasi.</li>
+            </ul>
+
+            <!-- Gambar Struktur Organisasi -->
+            <img src="gambar struktur" alt="Struktur Organisasi SMA Negeri 1 Jakarta" class="struktur-img"
+                 onerror="this.onerror=null; this.src='https://via.placeholder.com/800x500/004b8e/ffffff?text=Struktur+Organisasi+SMA+Negeri+1+Jakarta'">
+        </div>
+    </section>
+
+    <!-- Program Pendidikan -->
+    <section id="program">
+        <div class="container">
+            <h2>Program Pendidikan</h2>
+            <p><strong>Kurikulum:</strong> Merdeka Belajar 2023 dengan pendekatan student-centered learning.</p>
+            <p><strong>Program Unggulan:</strong> Kelas IPA Intensif, Kelas Bahasa Internasional, dan Kelas Akselerasi.</p>
+            <p><strong>Mata Pelajaran:</strong> Matematika, IPA, IPS, Bahasa Indonesia, Bahasa Inggris, Seni Budaya, dan Pendidikan Jasmani.</p>
+            <p><strong>Ekstrakurikuler:</strong> Pramuka, Basket, Debat, Robotika, Karya Ilmiah Remaja, dan Klub Bahasa Asing.</p>
+        </div>
+    </section>
+
+    <!-- Fasilitas Sekolah -->
+    <section id="fasilitas" class="bg-light-custom">
+        <div class="container">
+            <h2>Fasilitas Sekolah</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <img src="gambar materi pramuka" 
+                         class="fasilitas-img" alt="Ruang Kelas Modern">
+                    <p><strong>Ruang Kelas Modern</strong></p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="gambar lab sekolah" 
+                         class="fasilitas-img" alt="Laboratorium IPA">
+                    <p><strong>Laboratorium IPA</strong></p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="gambar perpustakaan" 
+                         class="fasilitas-img" alt="Perpustakaan">
+                    <p><strong>Perpustakaan Digital</strong></p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="gambar eskul pramuka" 
+                         class="fasilitas-img" alt="Lapangan Olahraga">
+                    <p><strong>Lapangan Olahraga</strong></p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="gambar lab sekolah" 
+                         class="fasilitas-img" alt="Ruang Multimedia/Komputer">
+                    <p><strong>Ruang Multimedia & Komputer</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prestasi Sekolah -->
+    <section id="prestasi">
+        <div class="container">
+            <h2>Prestasi Sekolah</h2>
+
+            <!-- Gambar Siswa Berprestasi -->
+            <img src="gambar siswa berprestasi" alt="Siswa Berprestasi SMA Negeri 1 Jakarta" class="prestasi-img"
+                 onerror="this.onerror=null; this.src='https://via.placeholder.com/800x400/004b8e/ffffff?text=Siswa+Berprestasi+SMA+Negeri+1+Jakarta'">
+
+            <ul class="mt-4">
+                <li><strong>Juara 1 Olimpiade Sains Nasional 2024</strong></li>
+                <li><strong>Penghargaan Sekolah Adiwiyata 2023</strong></li>
+                <li><strong>Prestasi Siswa:</strong> 5 siswa mendapatkan beasiswa ke Universitas Top Dunia</li>
+                <li><strong>Juara 1 Lomba Debat Bahasa Inggris Tingkat Nasional</strong></li>
+                <li><strong>Medali Perak Olimpiade Matematika Internasional</strong></li>
+                <li><strong>Juara Umum Festival Seni Siswa Nasional 2023</strong></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Berita dan Pengumuman -->
+    <section id="berita" class="bg-light-custom">
+        <div class="container">
+            <h2>Berita dan Pengumuman</h2>
+            <div class="card border-primary mb-3">
+                <div class="card-header bg-primary text-white">Berita Terbaru</div>
+                <div class="card-body">
+                    <h5 class="card-title">Seminar Karir 15 Desember 2025</h5>
+                    <p class="card-text">Seminar ini akan menghadirkan alumni yang sukses di berbagai bidang profesional untuk berbagi pengalaman dengan siswa kelas XII.</p>
+                </div>
+            </div>
+            <div class="card border-primary mb-3">
+                <div class="card-header bg-primary text-white">Agenda Sekolah</div>
+                <div class="card-body">
+                    <h5 class="card-title">Ujian Akhir Semester 20-25 Desember 2025</h5>
+                    <p class="card-text">Jadwal ujian dan ruangan dapat diakses melalui portal siswa. Siswa diharapkan mempersiapkan diri dengan baik.</p>
+                </div>
+            </div>
+            <div class="card border-primary">
+                <div class="card-header bg-primary text-white">Pengumuman Penting</div>
+                <div class="card-body">
+                    <h5 class="card-title">Hasil Seleksi Ekstrakurikuler 2025/2026</h5>
+                    <p class="card-text">Pengumuman hasil seleksi ekstrakurikuler telah dipublikasikan di papan pengumuman sekolah dan portal online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="galeri">
+        <div class="container">
+            <h2>Galeri Kegiatan Sekolah</h2>
+            <p>Dokumentasi visual kegiatan siswa, upacara, ekstrakurikuler, dan acara sekolah.</p>
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <img src="gambar upacara bendera" 
+                         class="galeri-img" alt="Upacara Bendera">
+                    <p class="mt-2">Upacara Bendera</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="gambar siswa siswi sedang melakukan pembelajaran" 
+                         class="galeri-img" alt="Kegiatan Belajar">
+                    <p class="mt-2">Kegiatan Belajar</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="foto semua eskul" 
+                         class="galeri-img" alt="Ekstrakurikuler">
+                    <p class="mt-2">Ekstrakurikuler</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="gambar eskul palang merah" 
+                         class="galeri-img" alt="Perayaan Sekolah">
+                    <p class="mt-2">Perayaan Sekolah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Guru dan Tenaga Kependidikan -->
+    <section id="guru" class="bg-light-custom">
+        <div class="container">
+            <h2>Data Guru dan Tenaga Kependidikan</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Nama</th>
+                            <th>Jabatan</th>
+                            <th>Bidang Keahlian</th>
+                            <th>Pendidikan Terakhir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dr. Budi Santoso, M.Pd.</td>
+                            <td>Kepala Sekolah</td>
+                            <td>Manajemen Pendidikan</td>
+                            <td>S3 Pendidikan</td>
+                        </tr>
+                        <tr>
+                            <td>Ibu Siti Aminah, S.Pd.</td>
+                            <td>Wakil Kepala Sekolah</td>
+                            <td>Matematika</td>
+                            <td>S2 Pendidikan Matematika</td>
+                        </tr>
+                        <tr>
+                            <td>Drs. Ahmad Sudrajat</td>
+                            <td>Guru Senior</td>
+                            <td>Fisika</td>
+                            <td>S2 Fisika</td>
+                        </tr>
+                        <tr>
+                            <td>Ibu Maria Ulfah, M.Pd.</td>
+                            <td>Guru</td>
+                            <td>Bahasa Inggris</td>
+                            <td>S2 Linguistik</td>
+                        </tr>
+                        <tr>
+                            <td>Bapak Rudi Hartono, S.Pd.</td>
+                            <td>Guru</td>
+                            <td>Olahraga</td>
+                            <td>S1 Pendidikan Olahraga</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Siswa dan Alumni -->
+    <section id="siswa">
+        <div class="container">
+            <h2>Data Siswa dan Alumni</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Jumlah Siswa per Kelas (Tahun Ajaran 2025/2026)</h4>
+                    <ul>
+                        <li>Kelas X: 320 siswa (8 kelas)</li>
+                        <li>Kelas XI: 280 siswa (7 kelas)</li>
+                        <li>Kelas XII: 240 siswa (6 kelas)</li>
+                        <li><strong>Total:</strong> 840 siswa</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Prestasi Alumni Terkenal</h4>
+                    <ul>
+                        <li><strong>Dr. Ani Budianto</strong> - Dokter Spesialis di RSUP Jakarta</li>
+                        <li><strong>Prof. Budi Setiawan</strong> - Guru Besar Universitas Indonesia</li>
+                        <li><strong>Maya Sari</strong> - CEO Startup Teknologi Unicorn</li>
+                        <li><strong>Bambang Wijaya</strong> - Duta Besar Indonesia untuk Jepang</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PPDB -->
+    <section id="ppdb" class="bg-light-custom">
+        <div class="container">
+            <h2>PPDB (Penerimaan Peserta Didik Baru)</h2>
+            <div class="card border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Jadwal PPDB Tahun Ajaran 2026/2027</h5>
+                    <ul>
+                        <li><strong>Pendaftaran Online:</strong> 1-15 Juni 2026</li>
+                        <li><strong>Verifikasi Berkas:</strong> 16-20 Juni 2026</li>
+                        <li><strong>Tes Seleksi:</strong> 22 Juni 2026</li>
+                        <li><strong>Pengumuman:</strong> 25 Juni 2026</li>
+                        <li><strong>Daftar Ulang:</strong> 26-30 Juni 2026</li>
+                    </ul>
+                    <p><strong>Persyaratan:</strong> Fotokopi raport SMP, akta kelahiran, KK, pas foto 3x4, dan surat keterangan sehat.</p>
+                    <p><strong>Kontak Panitia PPDB:</strong> (021) 1234567 ext. 123 | Email: ppdb@sman1jakarta.sch.id</p>
+                    <p><strong>Website PPDB:</strong> <a href="#">ppdb.sman1jakarta.sch.id</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak dan Lokasi -->
+    <section id="kontak">
+        <div class="container">
+            <h2>Kontak dan Lokasi</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Alamat:</strong> Jl. Pendidikan No. 1, Jakarta Pusat, DKI Jakarta 10110</p>
+                    <p><strong>Telepon:</strong> (021) 1234567, (021) 7654321</p>
+                    <p><strong>Email:</strong> info@sman1jakarta.sch.id</p>
+                    <p><strong>Website:</strong> www.sman1jakarta.sch.id</p>
+                    <p><strong>Media Sosial:</strong> 
+                        <br>📷 Instagram: @sman1jakarta
+                        <br>📘 Facebook: SMA Negeri 1 Jakarta Official
+                        <br>▶️ YouTube: SMA Negeri 1 Jakarta Official
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <!-- Google Maps Embed -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613506864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1610522744259!5m2!1sid!2sid" 
+                                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SMA Negeri 1 Jakarta. All Rights Reserved.</p>
+        <p>Website Resmi SMA Negeri 1 Jakarta | Terakreditasi A (Unggul) | NPSN: 12345678</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Navbar background change on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.backgroundColor = '';
+                navbar.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
